@@ -1,0 +1,64 @@
+#NavBar{
+    flex-direction: column;
+    width: 103%;
+}
+#NavBar #logo{
+    align-items: center;
+    justify-content: center;
+}
+#NavBar ul li a{
+    padding: 0px;
+    font-size: 0.8rem;
+}
+#NavBar ul li a:hover{
+    padding: 5px;
+}
+#logo img {
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 46px;
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+}
+#home p{
+    padding: 1px 73px;
+}
+#home::before{
+    height: 160.2%;
+    width: 103%;
+}
+#services{
+    flex-direction: column;
+}
+#services .box img{
+    height: 86px;
+}
+#clients{
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    /* width: 224px; */
+}
+#clients-item{
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+}
+#clients::before{
+    height: 197%;
+    width: 106%;
+}
+#contact::before{
+    width: 103%;
+}
+#contact #contact-box .form-group{
+    width: 250px;
+}
+/* Utility */
+.h-primary{
+    margin-top: 10px;
+    padding: 0px;
+}
